@@ -34,15 +34,15 @@ int main ()
     cin >> n;
     if (n > 0)
     {
-    int invertido = inversonum(n);
-    if(palindromo(n, invertido))
-    {
-        cout << "El número es palindromo."<< endl;
-    }
-    else
-    {
-        cout << "El número no es palindromo.";
-    }
+        int invertido = inversonum(n);
+        if(palindromo(n, invertido))
+        {
+            cout << "El número es palindromo."<< endl;
+        }   
+        else
+        {
+            cout << "El número no es palindromo.";
+        }
     }
     else
     {
